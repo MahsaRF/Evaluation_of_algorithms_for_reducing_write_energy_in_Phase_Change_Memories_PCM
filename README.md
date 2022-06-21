@@ -10,7 +10,7 @@ this advantage, high energy consumption especially in write operations is inappr
 circumstance, Methods based on assessment are proposed and the most of them using 
 comparison before writing the data word. In these methods according to proportion of read 
 energy consumption to write energy consumption decrease the number of writes in each block 
-or word and these methods will not achieve unless by increasing read operations in PCM for 
+or word and these methods will increase read operations in PCM for 
 comparison.
 
 In this project we presented some techniques to reduce write energy 
