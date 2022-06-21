@@ -1,4 +1,4 @@
-# Evaluation_of_algorithms_for_reducing_write_energy_in_Phase_Change_Memories_-PCM-
+# Evaluation of algorithms for reducing write energy in Phase Change Memories (PCM)
 
 Topic : Evaluation of algorithms for reducing write energy in Phase Change Memories(PCM)
 Definition :
@@ -11,32 +11,28 @@ circumstance, Methods based on assessment are proposed and the most of them usin
 comparison before writing the data word. In these methods according to proportion of read 
 energy consumption to write energy consumption decrease the number of writes in each block 
 or word and these methods will not achieve unless by increasing read operations in PCM for 
-comparison. One of proposed algorithm operates through manipulation the data. In fact, the 
-data word in given address compares with new data word and according to minimizing the 
-number of different bits just the differences are manipulated[0]. The other proposed algorithm 
-to reduce the energy used in storing a new data block in the Phase-change random access 
-memory (PRAM), is to write the same data using fewer bit programming operations. Because 
-individual cells in a PRAM can be written independently, we will describe an efficient block 
-placement algorithm for choosing a free block whose contents are already similar to a new data 
-block ,and updating only data cells whose current values differ from the corresponding bits in a 
-write request [0].
-Steps :
- In this Course Project we represent two following papers as the main papers.
+comparison.
+
+In this project we presented some techniques to reduce write energy 
+consumption. These techniques worked based on two important points about 
+PCRAM cells. First, independency and addressability in PCRAMs and 
+second, free PCM blocks. Based on manipulation content technique which 
+writes new data based on last data and number of changes and content aware 
+placement technique which writes new data based on free blocks and 
+similarity of computed signature of new data and free blocks we presented a 
+hybrid method which use two above techniques. In fact, in this method, 
+choosing free block for writing new data is not only based on original data, 
+but also is dependent to inverse of original data. The results shows that in 
+hybrid method we achieved to about %65 overall improvement and about 
+%15 improvement against content aware placement technique.
+ 
+In this Course Project we represent two following papers:
 
 [1].Data Manipulation Techniques to Reduce Phase Change Memory write energy
 
 [2].Content-Aware Block Placement Algorithm for Reducing PRAM Storage Bit Writes
 
-In addition, the first approach is combination of two above methods that may have better 
-result in comparison with two proposed algorithm. One of the biggest challenge in [0] is the 
-overhead of extra signature and one problem in [0] is the high latency of comparison. We can 
-decrease the overhead of signature used in [0], but by decreasing signature bits ,the probability 
-of same signature for different data word is more than signature in [0], so for block that we 
-have same signature we can use comparison based on whole data word. This idea can classify 
-blocks of PCM and decrease number of comparison of whole data word, on the other hand this 
-idea decrease overhead.
 
-References :
 
 [0] http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5907007
 
