@@ -29,9 +29,27 @@ In this Project we represent two following papers:
 
 [1] Data Manipulation Techniques to Reduce Phase Change Memory write energy
 
+The general idea in this method is based on reading the stored data before writing the new data. 
+According to much more difference between read and write energy consumption has been tried to 
+changed cells will been updated. This structure called selective Memory write and proposed based on 
+independence of PCM cells. In this method, we read the given cell before writing operation and merely 
+which cells that are different with old cells will been updated. Two points in this situation is important. 
+First, in the above proposed algorithm we assume swap some write operations with extra read and 
+compare operations. But, because the read energy consumption is much less than write energy 
+consumption, so extra read operations is not critical in this case. Second, increased latency is not a new 
+problem, because the read latency is much less than write latency. For instance, read time is about 
+several tens ns but write time is about several hundred ns. 
+
 [2] Content-Aware Block Placement Algorithm for Reducing PRAM Storage Bit Writes
 
-
+General idea in this method is based on choosing a good free block for minimize the number of 
+changes between last stored and new data. The same as last method(XOR masked write) this method 
+needs reading some characteristic of stored data before writing new data and this condition needs an 
+overhead for each block that called signature. Signature is an overhead for each PCM cell that represent 
+that the format of stored data. In fact, if two data have equal signature then those data have 
+approximately equal data and the changed is minimized. 
+ This methods uses one of important algorithm that called “Data Comparison Write”. DCW is a 
+algorithm for optimal writing based on minimizing number of writes.
 
 
 [1] https://dl.acm.org/doi/10.1145/1594233.1594290
