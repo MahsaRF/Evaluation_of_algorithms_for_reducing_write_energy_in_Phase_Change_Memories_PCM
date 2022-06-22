@@ -1,7 +1,6 @@
 # Evaluation of algorithms for reducing write energy in Phase Change Memories (PCM)
 
 Topic : Evaluation of algorithms for reducing write energy in Phase Change Memories(PCM)
-Definition :
 
 One of the most important issue in Main Memories is the potential of scalability, and 
 scalability of PCM against DRAM has considerable preference causes PCM has become topic 
@@ -51,7 +50,7 @@ approximately equal data and the changed is minimized.
  This methods uses one of important algorithm that called “Data Comparison Write”. DCW is a 
 algorithm for optimal writing based on minimizing number of writes.
 
-This project was submitted as part of the Advanced Storage Systems course taught by Professor Hossein Asadi at Sharif University of Technology Spring Fall 2012
+This project was submitted as part of the Advanced Storage Systems course taught by Professor Hossein Asadi at Sharif University of Technology Fall 2012
 
 [1] https://dl.acm.org/doi/10.1145/1594233.1594290
 
