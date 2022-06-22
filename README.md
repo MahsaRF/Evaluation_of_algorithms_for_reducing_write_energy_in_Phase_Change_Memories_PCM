@@ -13,8 +13,7 @@ energy consumption to write energy consumption decrease the number of writes in 
 or word and these methods will increase read operations in PCM for 
 comparison.
 
-In this project we presented some techniques to reduce write energy 
-consumption. These techniques worked based on two important points about 
+We presented some techniques to reduce write energy consumption. These techniques worked based on two important points about 
 PCRAM cells. First, independency and addressability in PCRAMs and 
 second, free PCM blocks. Based on manipulation content technique which 
 writes new data based on last data and number of changes and content aware 
@@ -26,7 +25,7 @@ but also is dependent to inverse of original data. The results shows that in
 hybrid method we achieved to about %65 overall improvement and about 
 %15 improvement against content aware placement technique.
  
-In this Course Project we represent two following papers:
+In this Project we represent two following papers:
 
 [1].Data Manipulation Techniques to Reduce Phase Change Memory write energy
 
@@ -34,6 +33,6 @@ In this Course Project we represent two following papers:
 
 
 
-[0] http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5907007
+[0] https://dl.acm.org/doi/10.1145/1594233.1594290
 
-[0] http://dl.acm.org/citation.cfm?id=0509009&dl=ACM&coll=DL&CFID=70529969&CFTOKEN=82782009
+[0] https://ieeexplore.ieee.org/document/5496996
