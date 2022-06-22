@@ -51,7 +51,9 @@ approximately equal data and the changed is minimized.
  This methods uses one of important algorithm that called “Data Comparison Write”. DCW is a 
 algorithm for optimal writing based on minimizing number of writes.
 
+This project was submitted as part of the Advanced Storage Systems course taught by Professor Hossein Asadi at Sharif University of Technology Spring Fall 2012
 
 [1] https://dl.acm.org/doi/10.1145/1594233.1594290
 
 [2] https://ieeexplore.ieee.org/document/5496996
+
