@@ -27,12 +27,12 @@ hybrid method we achieved to about %65 overall improvement and about
  
 In this Project we represent two following papers:
 
-[1].Data Manipulation Techniques to Reduce Phase Change Memory write energy
+[1] Data Manipulation Techniques to Reduce Phase Change Memory write energy
 
-[2].Content-Aware Block Placement Algorithm for Reducing PRAM Storage Bit Writes
+[2] Content-Aware Block Placement Algorithm for Reducing PRAM Storage Bit Writes
 
 
 
-[0] https://dl.acm.org/doi/10.1145/1594233.1594290
+[1] https://dl.acm.org/doi/10.1145/1594233.1594290
 
-[0] https://ieeexplore.ieee.org/document/5496996
+[2] https://ieeexplore.ieee.org/document/5496996
